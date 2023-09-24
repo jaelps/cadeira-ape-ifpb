@@ -1,16 +1,15 @@
 from lista2 import ex01,ex02,ex03,ex04,ex05,ex06
 
-def menu_2():
+def m2():
   print('''
-  ===================================
-  ||  1. Testar 1º item da lista   ||
-  ||  2. Testar 2º item da lista   ||
-  ||  3. Testar 2º item da lista   ||
-  ||  4. Testar 2º item da lista   ||
-  ||  5. Testar 2º item da lista   ||
-  ||  6. Testar 2º item da lista   ||
-  ||  0. Retornar menu anterior    ||
-  ===================================
+  ==========================================
+  ||   1. Slide Introdução a Python       ||
+  ||   2. Exercicio Introdução a Python   ||
+  ||   3. Exercicio Complementar          ||
+  ||   4. Pratica exercicio 1             ||
+  ||   5. Pratica exercicio 2             ||
+  ||   0. Retornar menu anterior          ||
+  ==========================================
   ''')
 
   while True:
