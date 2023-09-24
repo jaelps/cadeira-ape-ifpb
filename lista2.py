@@ -78,3 +78,19 @@ def ex06():
   print(
       f'- {qtd_cedulas[0]} notas de B$:50\n- {qtd_cedulas[1]} notas de B$:10\n- {qtd_cedulas[2]} notas de B$:5\n- {qtd_cedulas[3]} notas de B$:1'
   )
+
+def ex07():
+  preco_kg = 25.00
+  peso = float(input('Peso do prato (em Kg): '))
+  valor = peso * preco_kg
+  print('Valor a pagar: R$',valor)
+
+def ex08():
+  aluno = input('Nome do aluno:  ')
+  nota_prova1 = float(input('Nota da 1ª prova:  '))
+  nota_prova2 = float(input('Nota da 2ª prova:  '))
+  nota_prova3 = float(input('Nota da 3ª prova:  '))
+
+  media = (nota_prova1 + nota_prova2 + nota_prova3) /3
+
+  print(f'Aluno {aluno} sua media é {media}')
