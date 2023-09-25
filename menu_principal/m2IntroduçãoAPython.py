@@ -1,4 +1,6 @@
-from lista2 import ex01,ex02,ex03,ex04,ex05,ex06
+from modulo_2_Introdução_a_Python.exercicio.menu_lista_exercicio.menu_lista1 import m_r_list1
+
+from modulo_2_Introdução_a_Python.exercicio.menu_lista_exercicio.menu_lista2 import m_r_lista2
 
 def m2():
   print('''
@@ -16,17 +18,19 @@ def m2():
     op = int(input('Escolha opção da lista: '))
 
     if op == 1:
-      exercicio_1 = ex01()
+      print('em processo')
     elif op == 2:
-      exercicio_2 = ex02()
+      print('em processo')
     elif op == 3:
-      exercicio_3 = ex03()
+      print('em processo')
     elif op == 4:
-      exercicio_4 = ex04()
+      print('em processo')
     elif op == 5:
-      exercicio_5 = ex05()
+      exercicio_1 = m_r_list1()
+      return exercicio_1
     elif op == 6:
-      exercicio_6 = ex06()
+      exercicio_2 = m_r_lista2()
+      return exercicio_2
     elif op == 0:
       print('Retornado ao menu principal')
       break

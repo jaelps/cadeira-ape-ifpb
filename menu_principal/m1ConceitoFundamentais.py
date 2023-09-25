@@ -1,5 +1,3 @@
-from lista1 import ex01,ex02,ex03,ex04,ex05,ex06,ex07,ex08
-
 def m1():
   print('''
   ========================================
@@ -12,7 +10,7 @@ def m1():
     op = int(input('Escolha opção da lista: '))
 
     if op == 1:
-      exercicio_1 = ex01()
+      print('em processo para abertura de  pdf ')#em processo
     elif op == 0:
       print('Retornado ao menu principal')
       break

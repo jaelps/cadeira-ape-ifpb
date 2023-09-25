@@ -1,5 +1,10 @@
-from menuLista1 import menu_1
-from menuLista2 import menu_2
+from menu_principal.m1ConceitoFundamentais import m1
+
+from menu_principal.m2IntroduçãoAPython import m2
+
+from menu_principal.m3EstruturaDeDecisão import m3
+
+from menu_principal.m4EstruturaDeRepetição import m4
 
 print('Bem vindo ao S.A.E (SITEMA DE ANALISE DE EXERCICIOS')
 controle = True
@@ -16,13 +21,13 @@ while controle:
   op = int(input('Escolha a opção desejada:\n'))
 
   if op == 1:
-    importar_menu1 = menu_1()
+    modulo1 = m1()
   elif op == 2:
-    importal_menu2 = menu_2()
+    modulo = m2()
   elif op == 3:
-    importal_menu2 = menu_2()
+    modulo = m3()
   elif op == 4:
-    importal_menu2 = menu_2()
+    modulo = m4()
   elif op == 0:
     print('sistema esta sendo finalizado ...')
     controle = False
