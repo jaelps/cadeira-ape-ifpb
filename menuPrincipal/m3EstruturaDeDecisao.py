@@ -38,14 +38,11 @@ def m3():
       print(f'Link >>> {url}\n\n')
 
     elif op == 4:
-      
+      modulo = m_rA()
 
     elif op == 5:
-      print('\nPara acessar os pdf favor click no link abaixo\n')
-      url = 'https://jaelps.github.io/repositorio_aula_ape_ifpb/'
-
-      print(f'Link >>> {url}\n\n')
-    
+      modulo = m_rB()
+      return modulo
     elif op == 0:
       print('Retornado ao menu principal')
       break
